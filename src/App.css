@@ -1,0 +1,44 @@
+/* Start icon */
+#navbarSupportedContent > ul > li {
+  cursor: pointer;
+}
+/* End Icon */
+
+/* Start burger icon */
+.navbar .btn-outline-dark {
+  display: none;
+}
+.navbar i {
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+/* End burger icon */
+
+/* Start switch button */
+#flexSwitchCheckDefault {
+  width: 40px;
+  height: 18px;
+}
+/* End switch button */
+
+@media only screen and (max-width: 920px) {
+  /* Show the burger menu icon */
+  .navbar i {
+    display: block;
+  }
+  .navbar .btn-outline-dark {
+    display: block;
+  }
+
+  .form-switch {
+    width: 150px;
+    margin-right: 3%;
+  }
+}
+
+/* Start search function */
+.hide {
+  display: none;
+}
+/* End search function */

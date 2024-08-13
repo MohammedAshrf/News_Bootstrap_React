@@ -1,0 +1,2 @@
+// 1- the effect of image hover, like rotating, make it bigger
+//    and the white overlay.
